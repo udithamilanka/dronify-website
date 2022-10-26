@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+.column2 {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #79B9E6, #FFFFFF);
+}
+
+.column1 {
+  display: none;
+  float: left;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.cloud_box {
+  box-sizing: border-box;
+  position: relative;
+  height: 40%;
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.cloud_box .cloud1 {
+  box-sizing: border-box;
+  position: absolute;
+  height: 5%;
+  width: 15%;
+  left: 9.1194968553%;
+}
+.cloud_box .cloud2 {
+  box-sizing: border-box;
+  position: absolute;
+  height: 5%;
+  width: 15%;
+  top: 15.593220339%;
+  left: 76.572327044%;
+}
+.cloud_box .cloud3 {
+  box-sizing: border-box;
+  position: absolute;
+  height: 5%;
+  width: 15%;
+  top: 37.2881355932%;
+  left: 49.3710691824%;
+}
+.cloud_box .cloud4 {
+  box-sizing: border-box;
+  position: absolute;
+  height: 5%;
+  width: 15%;
+  top: 53.5593220339%;
+  left: 31.2893081761%;
+}
+.cloud_box .cloud5 {
+  box-sizing: border-box;
+  position: absolute;
+  height: 5%;
+  width: 15%;
+  top: 76.2711864407%;
+  right: 0%;
+}
+.cloud_box .cloud6 {
+  box-sizing: border-box;
+  position: absolute;
+  height: 5%;
+  width: 15%;
+  bottom: 0;
+  left: 0;
+}
+.cloud_box .text1 {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 15%;
+  width: 30%;
+  left: 35%;
+  top: 75.593220339%;
+}
+
+.cloud_image {
+  width: 100%;
+  height: 100%;
+}
+
+.upper {
+  box-sizing: border-box;
+  height: 36.5853658537%;
+  width: 100%;
+}
+
+.lower {
+  box-sizing: border-box;
+  height: 58.5365853659%;
+  width: 100%;
+}
+
+.upper_text {
+  text-align: center;
+  font-size: 1.3vh;
+  letter-spacing: 0.05vw;
+  font-weight: 600;
+  display: inline-block;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.lower_text {
+  text-align: center;
+  font-size: 2.4vh;
+  letter-spacing: 0.35vw;
+  font-weight: 600;
+  display: inline-block;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.drone_image {
+  display: block;
+  height: auto;
+  width: 30%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button2 {
+  height: 40px;
+  max-width: 50%;
+  background-color: #1C8BDD;
+  border-radius: 3px;
+  border: 1px solid #E8E8E8;
+  margin-top: 25%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 600;
+  box-sizing: content-box;
+  height: 40px;
+  max-width: 50%;
+}
+
+@media (orientation: landscape) {
+  .column2 {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 49.4143484627%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #79B9E6, #FFFFFF);
+  }
+  .column1 {
+    float: left;
+    display: block;
+    width: 50.5856515373%;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  .cloud_box {
+    box-sizing: border-box;
+    position: relative;
+    height: 38.4114583333%;
+    width: 94.2222222222%;
+    margin-left: 4.4444444444%;
+    margin-top: 3.3854166667%;
+  }
+  .cloud_box .cloud1 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 7.4576271186%;
+    width: 11.1635220126%;
+    left: 9.1194968553%;
+  }
+  .cloud_box .cloud2 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 7.7966101695%;
+    width: 11.7924528302%;
+    top: 15.593220339%;
+    left: 76.572327044%;
+  }
+  .cloud_box .cloud3 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 7.7966101695%;
+    width: 11.7924528302%;
+    top: 37.2881355932%;
+    left: 49.3710691824%;
+  }
+  .cloud_box .cloud4 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 7.7966101695%;
+    width: 11.7924528302%;
+    top: 53.5593220339%;
+    left: 31.2893081761%;
+  }
+  .cloud_box .cloud5 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 8.4745762712%;
+    width: 12.893081761%;
+    top: 76.2711864407%;
+    left: 87.2641509434%;
+  }
+  .cloud_box .cloud6 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 8.4745762712%;
+    width: 12.893081761%;
+    bottom: 0;
+    left: 0;
+  }
+  .cloud_box .text1 {
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 13.8983050847%;
+    width: 18.5534591195%;
+    top: 75.593220339%;
+    left: 40.5660377358%;
+  }
+  .cloud_image {
+    width: 100%;
+    height: 100%;
+  }
+  .upper {
+    box-sizing: border-box;
+    height: 36.5853658537%;
+    width: 100%;
+  }
+  .lower {
+    box-sizing: border-box;
+    height: 58.5365853659%;
+    width: 100%;
+  }
+  .upper_text {
+    text-align: center;
+    font-size: 1.3vh;
+    letter-spacing: 0.05vw;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    color: #FFFFFF;
+  }
+  .lower_text {
+    text-align: center;
+    font-size: 2.4vh;
+    letter-spacing: 0.2vw;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    color: #FFFFFF;
+  }
+  .drone_image {
+    height: 12.7604166667%;
+    width: 21.3333333333%;
+    margin-top: 1.8229166667%;
+    margin-left: 40.8888888889%;
+  }
+  .droneclip {
+    height: 6.9010416667%;
+    width: 16.497829233%;
+    margin-left: 46.7438494935%;
+    margin-top: 14.7135416667%;
+    padding-bottom: 20px;
+  }
+  .topic {
+    margin-left: 46.7438494935%;
+    font-size: 14px;
+    color: #B7B6B6;
+    padding-bottom: 20px;
+  }
+  form {
+    margin-left: 46.7438494935%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    height: 40px;
+    width: 260px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #E8E8E8;
+  }
+  .input_data {
+    color: black;
+    padding-left: 15px;
+  }
+  ::-moz-placeholder {
+    color: #D0D0D0;
+  }
+  :-ms-input-placeholder {
+    color: #D0D0D0;
+  }
+  ::placeholder {
+    color: #D0D0D0;
+  }
+  .button1 {
+    height: 40px;
+    width: 260px;
+    background-color: #1C8BDD;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: 1px solid #E8E8E8;
+  }
+  .address {
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 86px;
+    padding-left: 15px;
+  }
+  .error {
+    border-color: #FF0000;
+    border-radius: 3px;
+  }
+  label {
+    font-size: 10px;
+    color: #FF0000;
+    font-weight: 600;
+    padding-top: 3px;
+  }
+  .labelbox {
+    box-sizing: border-box;
+    height: 20px;
+  }
+  .button2 {
+    display: none;
+  }
+  a {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */
